@@ -17,7 +17,7 @@ square(X) ->
     mult(X, X).
 
 treble(X) ->
-    square(X) * X.
+    mult(square(X), X).
 
 area(A,B,C) ->
     S = (A+B+C)/2,
