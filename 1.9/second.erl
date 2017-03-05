@@ -8,4 +8,4 @@ area(A,B) ->
     first:mult(A,B) / 2.
 
 perim(A,B) ->
-    A + B + second:hyp(A,B).
+    A + B + hyp(A,B).
